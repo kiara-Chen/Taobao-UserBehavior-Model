@@ -8,7 +8,7 @@
 | :--- | :--- | :--- |
 | `best_lgb_model.pkl` | **LightGBM** | 经过 5 折交叉验证调优后的最优 LightGBM 基模型。 |
 | `best_xgb_model.pkl` | **XGBoost** | 经过代价敏感学习（scale_pos_weight）配置后的最优 XGBoost 基模型。 |
-| `meta_model.joblib` | **元模型 (LR)** | (建议上传) 用于融合基模型预测结果的逻辑回归元模型。 |
+| `meta_model.joblib` | **元模型 (LR)** | 用于融合基模型预测结果的逻辑回归元模型（建议上传）。 |
 
 ## 2. 调优参数概览
 所有模型均针对 **类别不平衡 (1:4.6)** 进行了优化：
