@@ -14,8 +14,8 @@
 
 ## 📁 仓库结构说明
 - `data/`: 存放数据下载链接及格式对齐的训练集/测试集 Sample 样例。
-- `notebooks/`: 包含全流程实验代码：EDA、特征工程、调参、Stacking 模型训练。
-- `models/`: **存放经过 GridSearchCV 调参后的最优模型文件 (.joblib/.pkl)**。
+- `notebooks/`: 包含全流程实验代码：EDA、特征工程、调参、Stacking 模型训练,全部在**Python_final.ipynb**里。
+- `models/`: 存放经过 GridSearchCV 调参后的最优模型文件 (.joblib/.pkl)。
 - `README.md`: 项目主说明文档。
 
 ## 📅 数据集切分逻辑 (滑动窗口法)
